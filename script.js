@@ -1,0 +1,1 @@
+const q=document.getElementById('tocSearch');if(q){q.addEventListener('input',()=>{const v=q.value.toLowerCase();document.querySelectorAll('.toc a').forEach(a=>a.style.display=a.textContent.toLowerCase().includes(v)?'flex':'none')})}
